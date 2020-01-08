@@ -1,14 +1,11 @@
-/*MC LIMPIA MEMORIA
-MS GUARDA EL VALOR QUE HAY EN PANTALLA
-MR MUESTRA EL VALOR QUE HAY EN LA PANTALLA*/
 //Declaramos variables
 //Declaramos variables
 var operandoa;
 var operandob;
 var operacion;
-
+//Esta funcion se llama al cargar el HTML
 function init(){
-  //variables
+  //Aqui creamos variables y se la asignamos a los diferentes botones de la calculadora por su Id
   var resultado = document.getElementById('resultado');
   var reset = document.getElementById('reset');
   var suma = document.getElementById('suma');
